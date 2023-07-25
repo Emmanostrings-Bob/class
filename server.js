@@ -18,4 +18,4 @@ const subscriberRouter = require('./routes/subscribers');
 app.use('/subscribers', subscriberRouter)
 
 
-// app.listen(3000, () => console.log('server has started'))
+app.listen(3000, () => console.log('server has started'))
